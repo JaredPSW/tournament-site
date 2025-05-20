@@ -4,20 +4,15 @@ export default function Register() {
   return (
     <>
       <Header />
-      <div className="p-6 max-w-4xl mx-auto">
+      <div className="p-6 max-w-5xl mx-auto">
         <h2 className="text-3xl font-semibold mb-4">Register for the Tournament</h2>
-        <p className="mb-4">
-          Start.gg registration cannot load in an iframe locally.
-          <br />
-          <a
-            href="https://www.start.gg/tournament/testbracket-2"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-500 underline"
-          >
-            Click here to register on Start.gg
-          </a>
-        </p>
+        <iframe
+          src="https://www.start.gg/tournament/testbracket-2/register"
+          width="100%"
+          height="800"
+          frameBorder="0"
+          title="Register"
+        ></iframe>
       </div>
     </>
   );

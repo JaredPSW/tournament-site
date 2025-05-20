@@ -7,11 +7,11 @@ export default function Bracket() {
       <div className="p-6 max-w-5xl mx-auto">
         <h2 className="text-3xl font-semibold mb-4">Live Bracket</h2>
         <iframe
-          src="https://start.gg/tournament/YOUR-TOURNAMENT-SLUG/events/YOUR-EVENT/brackets/embed"
+          src="https://www.start.gg/tournament/testbracket-2/events/ultimate-singles/brackets/embed"
           width="100%"
-          height="700"
+          height="800"
           frameBorder="0"
-          title="Live Bracket"
+          title="Bracket"
         ></iframe>
       </div>
     </>
