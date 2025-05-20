@@ -15,7 +15,7 @@ export default function Home() {
         <div>
           <h2 className="text-2xl font-semibold mb-2">Register Now</h2>
           <p className="mb-4">
-            Start.gg doesn't allow embedding, but you can register directly at the link below:
+            Start.gg doesn{"'"}t allow embedding, but you can register directly at the link below:
           </p>
           <a
             href="https://www.start.gg/tournament/testbracket-2/register"
